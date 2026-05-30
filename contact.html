@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Sooner Offroad | Baja SAE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <a class="nav-logo" href="index.html">
+      <img src="images/logo.png" alt="Sooner Offroad" class="nav-logo-img">
+      <div class="nav-logo-stack">
+        <span class="line1">SOONER <span style="color:var(--crimson-light)">OFFROAD</span></span>
+        <span class="line2">University of Oklahoma</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a class="nav-cta" href="sponsors.html">Become a Sponsor</a>
+    <button class="nav-hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <div class="nav-drawer" id="navDrawer">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="team.html">Team</a>
+    <a href="history.html">History</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- PAGE HERO WITH BACKGROUND PHOTO -->
+  <div class="page-hero contact-hero">
+    <!-- swap photo-slot for img when you have a good shop/race photo -->
+    <!-- <img src="images/hero/Teddy_Downhill_Action.JPG" alt="Sooner Offroad"> -->
+    <div class="contact-hero-bg photo-slot">
+      <div class="photo-slot-inner">
+        <div class="photo-slot-icon">📸</div>
+        <div class="photo-slot-label">Background Photo</div>
+        <div class="photo-slot-hint">Race or shop action shot — will sit behind the text with a dark overlay</div>
+      </div>
+    </div>
+    <div class="contact-hero-content">
+      <div class="section-eyebrow">Get In Touch</div>
+      <h1>LET'S <em>CONNECT</em></h1>
+      <p>Sponsor inquiries, membership questions, media requests, or just want to follow the build — reach out and we'll get back to you fast.</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTACT LAYOUT -->
+  <div class="contact-layout">
+
+    <!-- LEFT: channels + donate + newsletter -->
+    <div class="contact-left">
+      <p>Reach out through any of the channels below or fill out the form and we'll get back to you within 24 hours.</p>
+
+      <div class="contact-channels">
+        <div class="channel">
+          <div class="channel-icon">📬</div>
+          <div class="channel-body">
+            <div class="channel-title">Email Us</div>
+            <div class="channel-detail">sooneroffroad@ou.edu</div>
+          </div>
+          <a class="channel-link" href="mailto:sooneroffroad@ou.edu">Email →</a>
+        </div>
+        <div class="channel">
+          <div class="channel-icon">📸</div>
+          <div class="channel-body">
+            <div class="channel-title">Instagram</div>
+            <div class="channel-detail">@sooneroffroad</div>
+          </div>
+          <a class="channel-link" href="https://www.instagram.com/sooneroffroad/" target="_blank">Follow →</a>
+        </div>
+        <div class="channel">
+          <div class="channel-icon">📍</div>
+          <div class="channel-body">
+            <div class="channel-title">Find Us</div>
+            <div class="channel-detail">Rawl Engineering Practice Facility (REPF)<br>850 S. Jenkins Ave, Norman, OK</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DONATE BOX -->
+      <div class="donate-box" style="margin-top: 2rem;">
+        <h3>SUPPORT THE <em style="color:var(--crimson-light);font-style:normal">BUILD</em></h3>
+        <p>Not a company but want to support Sooner Offroad? Individual donations of any size go directly toward materials, machining, and competition costs.</p>
+        <a class="btn-fill" href="https://securelb.imodules.com/s/1720/21/form.aspx?sid=1720&gid=2&pgid=2351&cid=6359&dids=5185&utm_source=FN&utm_medium=web&utm_campaign=story&utm_term=FY25_04&utm_content=theomay" target="_blank">Donate to Sooner Offroad →</a>
+      </div>
+
+      <!-- NEWSLETTER SIGNUP -->
+      <div class="newsletter-box">
+        <div class="newsletter-icon">✉</div>
+        <h3>STAY IN THE <em>LOOP</em></h3>
+        <p>Join our newsletter for build updates, competition results, and team news — sent every other month, no spam.</p>
+        <!-- Hook this up to Mailchimp, Formspree, or your email platform -->
+        <form class="newsletter-form" id="newsletterForm" action="#" method="POST">
+          <div class="newsletter-row">
+            <input type="text" name="fname" placeholder="First name" required>
+            <input type="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <button class="btn-fill" type="submit" style="width:100%;">Subscribe to Newsletter</button>
+        </form>
+        <p class="newsletter-note">We send updates every 1–2 months. Unsubscribe anytime.</p>
+      </div>
+
+    </div>
+
+    <!-- RIGHT: contact form -->
+    <div class="contact-right">
+      <div class="contact-form-header">
+        <div class="section-eyebrow">Send a Message</div>
+        <h2 class="section-h" style="font-size:clamp(28px,3vw,40px);">WE'LL GET<br>BACK TO <em>YOU</em></h2>
+      </div>
+      <!-- Hook up to Formspree.io (free) — replace action="#" with your endpoint -->
+      <form class="contact-form" id="contactForm" action="#" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input type="text" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" placeholder="you@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Organization (optional)</label>
+          <input type="text" name="organization" placeholder="Company or university">
+        </div>
+        <div class="form-group">
+          <label class="form-label">I'm reaching out about</label>
+          <select name="topic">
+            <option>Sponsorship inquiry</option>
+            <option>Joining the team</option>
+            <option>Donation</option>
+            <option>Media / press</option>
+            <option>Newsletter</option>
+            <option>General question</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea name="message" placeholder="Tell us about yourself or your company..." rows="6" required></textarea>
+        </div>
+        <button class="btn-fill" type="submit" style="width:100%;">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <div class="footer-logo">SOONER <span>OFFROAD</span></div>
+      <div class="footer-tagline">University of Oklahoma · Baja SAE · Norman, OK</div>
+      <div class="footer-address">
+        Rawl Engineering Practice Facility (REPF)<br>
+        850 S. Jenkins Avenue, Norman, Oklahoma
+      </div>
+      <a class="footer-email" href="mailto:sooneroffroad@ou.edu">sooneroffroad@ou.edu</a>
+    </div>
+    <div class="footer-middle">
+      <div class="footer-social-label">Follow Us</div>
+      <div class="footer-social">
+        <a class="footer-social-link" href="https://www.instagram.com/sooneroffroad/" target="_blank" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+          Instagram
+        </a>
+        <a class="footer-social-link" href="https://www.facebook.com/SoonerOffRoad" target="_blank" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+          Facebook
+        </a>
+        <a class="footer-social-link" href="https://www.linkedin.com/company/sooner-off-road/" target="_blank" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          LinkedIn
+        </a>
+        <a class="footer-social-link" href="https://x.com/SoonerOffroad" target="_blank" aria-label="X / Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          X
+        </a>
+        <a class="footer-social-link" href="https://www.youtube.com/@sooneroff-road1823" target="_blank" aria-label="YouTube">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/>
+          </svg>
+          YouTube
+        </a>
+        <a class="footer-social-link" href="https://www.tiktok.com/@sooneroffroad" target="_blank" aria-label="TikTok">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/>
+          </svg>
+          TikTok
+        </a>
+      </div>
+    </div>
+    <div class="footer-right">
+      <div class="footer-nav-label">Navigate</div>
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="history.html">History</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
