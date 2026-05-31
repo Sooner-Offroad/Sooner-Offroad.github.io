@@ -3334,3 +3334,42 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================
+   TEDDY MEMORIAL
+   ============================================ */
+.teddy-memorial {
+  background: var(--dark-3);
+  border-left: 4px solid var(--crimson);
+  margin: 0 3.5rem 2rem;
+  padding: 2.5rem 3rem;
+}
+
+.teddy-memorial-inner {
+  max-width: 780px;
+}
+
+.teddy-memorial-mark {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--crimson-light);
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.teddy-memorial-text {
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.9;
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  .teddy-memorial {
+    margin: 0 1.5rem 1.5rem;
+    padding: 2rem 1.5rem;
+  }
+}
