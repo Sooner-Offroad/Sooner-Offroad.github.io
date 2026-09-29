@@ -781,17 +781,25 @@ img {
   overflow: hidden;
 }
 
+.team-card-photo {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--dark-3);
+}
+
 .team-card-photo .photo-slot {
-  height: 220px;
+  height: 100%;
   border: none;
   min-height: unset;
 }
 
 .team-card-photo img {
+  display: block;
   width: 100%;
-  height: 220px;
+  height: 100%;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: top center;
+  object-position: center top;
 }
 
 .team-card-info {
@@ -3372,4 +3380,13 @@ footer {
     margin: 0 1.5rem 1.5rem;
     padding: 2rem 1.5rem;
   }
+}
+
+.vehicle-hero-photo img,
+.vehicle-detail-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: var(--dark-3);
 }
